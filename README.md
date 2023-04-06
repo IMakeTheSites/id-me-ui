@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Install chrome CORS extension because CORS is not allowed in the purchases api. (https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en)
+
 In the project directory, you can run:
 
 ### `npm start`

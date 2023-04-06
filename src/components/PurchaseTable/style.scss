@@ -1,0 +1,74 @@
+.table {
+  border: 1px solid #e7e7ed;
+  border-radius: 4px;
+  color: #272833;
+
+  .table-head,
+  .table-body {
+    .table-row {
+      display: grid;
+      grid-template-columns: 48px 1fr 1fr 1fr 1fr 1fr 1fr 48px;
+
+      & > div {
+        padding: 12px;
+      }
+    }
+  }
+
+  .table-head {
+    height: 48px;
+    border-bottom: 1px solid #e7e7ed;
+    font-weight: 600;
+    .table-row {
+      .th-Category {
+        text-align: center;
+      }
+    }
+  }
+  .table-body {
+    .table-row {
+      height: 130px;
+      .name,
+      .price {
+        font-weight: 700;
+      }
+      .purchase-date,
+      .description {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  .category-cell {
+    border: 1px solid #272833;
+    border-radius: 2px;
+    padding: 3px 12px;
+    height: fit-content;
+    font-weight: 600;
+  }
+  .category-cell.Automotive {
+    border: 1px solid #ff8577;
+    color: #d94130;
+  }
+  .category-cell.Entertainment {
+    border: 1px solid #89a7e0;
+    color: #2e5aac;
+  }
+  .category-cell.Technology {
+    border: 1px solid #cdced9;
+    color: #000000;
+  }
+  .category-cell.Shopping {
+    border: 1px solid #98d4a9;
+    color: #118632;
+  }
+}
+
+.controller {
+  display: flex;
+  justify-content: center;
+}

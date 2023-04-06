@@ -1,0 +1,10 @@
+.layout-container {
+  max-width: 1098px;
+  margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+  .layout-container {
+    padding: 2rem;
+  }
+}

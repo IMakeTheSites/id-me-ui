@@ -1,5 +1,6 @@
 import ImageAvatar from "../ImageAvatar";
 import { parseDate } from "../../utils";
+
 import "./style.scss";
 
 const PurchaseCard = ({ purchase }) => {

@@ -5,10 +5,14 @@ import { parseDate } from "../../utils";
 import "./style.scss";
 
 export const CategoryWidget = ({ category }) => {
-  return <span className={`category-cell ${category}`}>{category}</span>;
+  return (
+    <span data-testid="category-widget" className={`category-cell ${category}`}>
+      {category}
+    </span>
+  );
 };
 
-const headers = [
+export const headers = [
   "Name",
   "Location",
   "Purchase Date",
